@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_180x180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_16x16.png" />
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl.theme.default.css" />
+    <title>Hornická města, Kutná Hora | Přihláška</title>
+    <meta content="Město Kutná Hora, České muzeum stříbra, p.o. a hornický spolek Barbora
+    zvou všechny příznivce hornictví, kutnohorské patrioty a přátelé do Kutné Hory na 26. setkání hornických měst." name="description">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">  
+        <a href="./"><img src="img/logo-akce-cerna.png" alt="logo akce Setkání hornických města Kutná Hora 2022" class="nav-logo" /></a>
+        <div class="openMenu">  
+          <svg height="32px" viewBox="0 0 32 32" width="32px"><path fill=white d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+        </div>  
+        <ul class="mainMenu">
+          <li><a href="./" class="nav-link link-primary">Pro veřejnost</a></li>
+          <li><a href="./pro-horniky.html" class="nav-link link-primary">Pro horníky</a></li>
+          <li><a href="./kontakt.html" class="nav-link link-primary">Kontakt</a></li>
+          <li><a href="./prihlaska.html"><button  class="primary-button">REGISTRACE</button></a></li>
+          <div class="closeMenu">
+            <svg height="30px" viewBox="0 0 512 512" width="30px"><path fill=white d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+          </div>
+        </ul>
+      </div> 
+    </nav>
+    <main>
+      <div class="signup-wrapper">
+        <img src="img/kasna-kh.jpg" alt="kamenná kašla v Kutné Hoře" class="signup-img" />
+        <div class="container">
+          <div class="signup-text-wrapper">
+            <h3 class="contact-heading">Registrovat se můžete přes tento registrační formulář</h3>
+            <p><b>Registrace probíhá do 30. 4. 2022 </b><br>
+              kontaktní email: <a href="mailto:hornickamesta@kutnahora.cz" class="link-secondary">hornickamesta@kutnahora.cz</a></p>
+            <div class="signup-flex">
+              <div>
+                <p>Žádáme účastníky, aby zaplatili <b> účastnický poplatek ve výši 200 Kč/os nejpozději do 30. 4. 2022 </b>na <br>
+                účet: <b>19-0444212389/0800,</b> <br>
+                variabilní symbol: <b>IČO vašeho spolku,</b> <br>
+                zpráva pro příjemce: <b>hornická města</b></p>
+              </div>
+              <img src="img/qr-platba.png" alt="qr-platba" class="qr-image" />
+            </div>
+            <form  id="contact">  
+              <div class="form-field">
+                <label for="jmeno">Jméno</label>
+                <input type="text" name="entry.1315493792" id="jmeno" placeholder="spolek horníků" required oninvalid="this.setCustomValidity('Zde vyplňte jméno spolku')"
+                oninput="this.setCustomValidity('')">
+              </div>
+              <div class="form-double">
+                <div class="form-field half">
+                  <label for="kontaktni-osoba">Kontaktní osoba</label>
+                  <input type="text" name="entry.209219821" id="kontaktni-osoba" placeholder="Jan Novák" required oninvalid="this.setCustomValidity('Zde vyplňte kontaktní osobu')"
+                  oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-field half">
+                  <label for="pocet-osob">Počet osob</label>
+                  <input type="number" name="entry.1490478854" id="pocet-osob" min="1" max="100" placeholder="1" required oninvalid="this.setCustomValidity('Zde vyplňte počet osob')"
+                  oninput="this.setCustomValidity('')">
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="telefon">Telefon</label>
+                <input type="text" name="entry.495783212" id="telefon" value="+420" required oninvalid="this.setCustomValidity('Zde vyplňte své telefonní číslo')"
+                oninput="this.setCustomValidity('')">
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" name="entry.1429083136" id="email" placeholder="jan.novak@gmail.com" required oninvalid="this.setCustomValidity('Zde vyplňte svůj email')"
+                oninput="this.setCustomValidity('')">
+              </div>
+              <div class="form-double">
+                <div class="form-field half">
+                  <label for="termin-prijezdu">Termín příjezdu</label>
+                  <input type="date" name="entry.942300537" id="termin-prijezdu" min="22.10.2021" max="22.10.2022">
+                </div>
+                <div class="form-field half">
+                  <label for="termin-odjezdu">Termín odjezdu</label>
+                  <input type="date" name="entry.1632707179" id="termin-odjezdu" min="22.10.2021" max="22.10.2022">
+                </div>
+              </div>
+              <div class="form-double">
+                <div class="form-field half">
+                  <label for="ucast-pruvod">Budete se účastnit průvodu?</label>
+                  <div class="radio-wrapper">
+                    <div>
+                      <input type="radio" name="entry.928395535" id="ucast-pruvod-ano" value="ano">
+                      <label for="ucast-pruvod-ano" class="radio-label">ANO</label>
+                    </div>
+                    <div>
+                      <input type="radio" name="entry.928395535" id="ucast-pruvod-ne" value="ne">
+                      <label for="ucast-pruvod-ne" class="radio-label">NE</label>
+                    </div>
+                  </div>
+                </div> 
+                <div class="form-field half">
+                  <label for="ucast-prapor">Účast s praporem</label>
+                  <div class="radio-wrapper">
+                    <div>
+                      <input type="radio" name="entry.2079091520" id="ucast-prapor-ano" value="ano">
+                      <label for="ucast-prapor-ano" class="radio-label">ANO</label>
+                    </div>  
+                    <div>
+                      <input type="radio" name="entry.2079091520" id="ucast-prapor-ne" value="ne">
+                      <label for="ucast-prapor-ne" class="radio-label">NE</label>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+              <div class="form-double">
+                <div class="form-field half">
+                  <label for="pocet-praporu">Počet praporů</label>
+                  <input type="number" name="entry.772930216" id="pocet-praporu" placeholder="1" min="1" max="100">
+                </div>
+                <div class="form-field half">
+                  <label for="ucast-kapela">Účast s kapelou</label>
+                  <div class="radio-wrapper">
+                    <div>
+                      <input type="radio" name="entry.880550468" id="ucast-kapela-ano" value="ano"> 
+                      <label for="ucast-kapela-ano" class="radio-label">ANO</label>
+                    </div>  
+                    <div>
+                      <input type="radio" name="entry.880550468" id="ucast-kapela-ne" value="ne">
+                      <label for="ucast-kapela-ne" class="radio-label">NE</label>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="zprava">Zpráva</label>
+                <textarea type="text" name="entry.676896762" id="zprava" placeholder="Zde můžete zanechat stručné údaje o vašem spolku pro moderátora akce během slavnostního představení."></textarea>
+              </div>  
+              <div class="signup-button-wrapper">
+                <p>Pozn.: informace k sobotnímu stravování účastníků obdržíte po 30. 4. 2022</p>
+                <button type="submit" name="submit" class="secondary-button">REGISTRACE</button>
+              </div>
+            </form>   
+          </div>
+        </div>  
+      </div> 
+    </main>
+    <footer>
+      <div class="container footer-wrapper">
+        <div class="logo-block">
+          <a href="./"><img src="img/logo-footer-new.png" alt="logo města Kutná Hora" class="footer-logo" /></a>
+          <div>
+            <p class="white footer-align">Město Kutná Hora</br>
+            Havlíčkovo náměstí 552/1  </br>
+            284 01 Kutná Hora </p>
+            <p class="white footer-align">tel: +420 327 710 155</p>
+            <a href="mailto:unesco@kutnahora.cz" class="footer-align link-primary"><p class="link-footer-mail">hornickamesta@kutnahora.cz</p></a>
+          </div>
+        </div>
+        <div class="footer-block">
+          <h3 class="white footer-align footer-heading">Pro veřejnost</h3>
+          <div class="footer-link-wrapper footer-align">
+            <a href="./#program-pro-verejnost" class="link-primary">Program</a>
+            <a href="./#zakladni-informace" class="link-primary">Základní informace o akci</a>
+          </div>
+        </div>
+        <div class="footer-block">
+          <h3 class="white footer-align footer-heading">Pro horníky</h3>
+          <div class="footer-link-wrapper">
+            <a href="./pro-horniky.html#pokyny-pro-ucastniky" class="link-primary">
+              Pokyny účastníkům</a>
+            <a href="./prihlaska.html" class="link-primary">Přihláška</a>
+            <a href="./pro-horniky.html#program-pro-horniky" class="link-primary">Program</a>
+            <a href="./kontakt.html" class="link-primary">Kontakt</a>
+          </div>
+        </div>
+      </div>
+      <p class="center white copyright">© Copyright KUTNÁ HORA 2022 </p>
+    </footer>
+    <script  src="js/script.js"></script>
+    <script>
+      $('#contact').submit(function(e) {
+        //prevent the form from submiting so we can post to the google form
+        e.preventDefault();
+        //AJAX request
+        $.ajax({
+          url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSc1ujsrl6Tjdrm96ZLOdBD8BD1ITEEXMdE0S1PljOip07PFkw/formResponse',     //The public Google Form url, but replace /view with /formResponse
+          data: $('#contact').serialize(), //Nifty jquery function that gets all the input data
+          type: 'POST', //tells ajax to post the data to the url
+          dataType: "json", //the standard data type for most ajax requests
+          statusCode: { //the status code from the POST request
+            0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
+              //success
+              window.location="./potvrzeni.html"
+            },
+            200: function(data) {//200 is a success code. it went through!
+              //success
+              window.location="./potvrzeni.html"
+            },
+            403: function(data) {//403 is when something went wrong and the submission didn't go through
+              //error
+              alert('Něco se pokazilo, zkuste to prosím později');
+            }
+          }  
+        });
+      });
+    </script>
+  </body>
+</html>
